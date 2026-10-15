@@ -39,6 +39,11 @@ public class Main {
 			logger.log("Navegando no Item Raiz: " + subItem.getNome() + " | Duração aculumada: " + subItem.getDuracaoMinutos() + " min");
 		}
 		
+		//Chamada do Filtro para aulas com menos de 45 minutos
+		System.out.println("\n===== Aulas com duração de ate 45 minutos =====\n");
+		FiltroConteudo.filtrarAulasCurtas(cursoEngenharia);
+		System.out.println("\n");
+		
 		logger.log("Execução da atividade finalizada.");
 		
 	}

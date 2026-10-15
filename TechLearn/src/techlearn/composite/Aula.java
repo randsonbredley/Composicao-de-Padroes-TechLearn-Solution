@@ -27,6 +27,7 @@ public class Aula extends ComponenteCatalogo {
 		System.out.println(" - Aula: " + getNome() + " (" + getDuracaoMinutos() + " min)");
 	}
 	
+	@Override
 	public Iterator<ComponenteCatalogo> criarIterator(){
 		return new NullIterator<>();
 	}

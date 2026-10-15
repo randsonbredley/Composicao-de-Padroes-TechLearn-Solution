@@ -11,7 +11,7 @@ public abstract class ComponenteCatalogo {
 	public void remover(ComponenteCatalogo componente) {
 		throw new UnsupportedOperationException("Operação não suportada neste nível");
 	}
-	
+		
 	public String getNome() {
 		throw new UnsupportedOperationException();
 	}

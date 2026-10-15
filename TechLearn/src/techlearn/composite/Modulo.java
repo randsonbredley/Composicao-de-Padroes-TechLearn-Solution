@@ -50,7 +50,7 @@ public class Modulo extends ComponenteCatalogo {
 			c.exibirDetalhes();
 		}
 	}
-	
+		
 	public List<ComponenteCatalogo> getsubComponentes(){
 		return subComponentes;
 	}
