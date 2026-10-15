@@ -1,7 +1,5 @@
 package techlearn.composite;
 
-import javax.swing.DefaultRowSorter;
-
 import techlearn.iterator.Iterator;
 
 public abstract class ComponenteCatalogo {
@@ -18,7 +16,7 @@ public abstract class ComponenteCatalogo {
 		throw new UnsupportedOperationException();
 	}
 	
-	public int gitDuracaoMinutos() {
+	public int getDuracaoMinutos() {
 		throw new UnsupportedOperationException();
 	}
 	

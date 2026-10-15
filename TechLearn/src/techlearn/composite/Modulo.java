@@ -51,7 +51,7 @@ public class Modulo extends ComponenteCatalogo {
 		}
 	}
 	
-	public List<ComponenteCatalogo> criarIterator(){
+	public List<ComponenteCatalogo> getsubComponentes(){
 		return subComponentes;
 	}
 	
